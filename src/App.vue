@@ -132,30 +132,29 @@
     </section>
 
     <!-- CONTACTO -->
-    <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
-      <h2 class="text-3xl font-semibold text-white mb-4">
-        Disponible para nuevos proyectos
-      </h2>
+      <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
+  <h2 class="text-3xl font-semibold text-white mb-4">
+    Disponible para nuevos proyectos
+  </h2>
 
-      <p class="max-w-xl mx-auto text-gray-400 mb-10">
-        Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
-      </p>
+  <p class="max-w-xl mx-auto text-gray-400 mb-10">
+    Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
+  </p>
 
-      <div class="flex flex-col items-center gap-4 text-gray-300">
+  <div class="flex flex-col items-center gap-4 text-gray-300">
+    <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
+      📧 paulalopezvaldes2@gmail.com
+    </a>
 
-        <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
-        📧 paulalopezvaldes2@gmail.com
-      </a>
+    <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
+      💻 github.com/paulalopezv2
+    </a>
 
-      <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
-        💻 github.com/paulalopezv2
-      </a>
-        <p class="text-gray-500">
-          🔗 LinkedIn (próximamente)
-        </p>
-
-      </div>
-    </section>
+    <p class="text-gray-500">
+      🔗 LinkedIn (próximamente)
+    </p>
+  </div>
+</section>
 
     <!-- FOOTER -->
     <footer class="text-center py-10 text-gray-500 text-sm">
