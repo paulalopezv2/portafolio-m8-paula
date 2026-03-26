@@ -25,10 +25,10 @@
           </p>
 
           <a
-            href="#proyectos"
+            href="#contacto"
             class="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition"
           >
-            Ver proyectos
+            Contáctame
           </a>
         </div>
       </div>
@@ -62,7 +62,9 @@
 
         <!-- APP CLIMA -->
         <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl"></div>
+          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
+            🌤️
+          </div>
 
           <div class="p-6 text-center">
             <h3 class="font-semibold text-xl mb-2">App de Clima</h3>
@@ -77,38 +79,42 @@
         </article>
 
         <!-- HABIT TRACKER -->
-      <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-        <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl"></div>
-
-        <div class="p-6 text-center">
-          <h3 class="font-semibold text-xl mb-2">Habit Tracker</h3>
-          <p class="text-sm text-gray-500 mb-4">
-            Gestión de hábitos usando Vue, reactividad y almacenamiento local.
-          </p>
-
-          <div class="flex justify-center gap-3 flex-wrap">
-            <a
-              href="https://paulalopezv2.github.io/habit-tracker-paula/"
-              target="_blank"
-              class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
-            >
-              Ver proyecto
-            </a>
-
-            <a
-              href="https://github.com/paulalopezv2/habit-tracker-paula"
-              target="_blank"
-              class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
-            >
-              Ver código
-            </a>
+        <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
+          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
+            ✅
           </div>
-        </div>
-      </article>
+
+          <div class="p-6 text-center">
+            <h3 class="font-semibold text-xl mb-2">Habit Tracker</h3>
+            <p class="text-sm text-gray-500 mb-4">
+              Gestión de hábitos usando Vue, reactividad y almacenamiento local.
+            </p>
+
+            <div class="flex justify-center gap-3 flex-wrap">
+              <a
+                href="https://paulalopezv2.github.io/habit-tracker-paula/"
+                target="_blank"
+                class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
+              >
+                Ver proyecto
+              </a>
+
+              <a
+                href="https://github.com/paulalopezv2/habit-tracker-paula"
+                target="_blank"
+                class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
+              >
+                Ver código
+              </a>
+            </div>
+          </div>
+        </article>
 
         <!-- BUSCADOR -->
         <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl"></div>
+          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
+            🎬
+          </div>
 
           <div class="p-6 text-center">
             <h3 class="font-semibold text-xl mb-2">Buscador de Películas</h3>
@@ -125,36 +131,32 @@
       </div>
     </section>
 
-
     <!-- CONTACTO -->
-<section class="py-20 px-6 bg-[#0f0f14] text-center">
-  
-  <h2 class="text-3xl font-semibold text-white mb-4">
-    Disponible para nuevos proyectos
-  </h2>
+    <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
+      <h2 class="text-3xl font-semibold text-white mb-4">
+        Disponible para nuevos proyectos
+      </h2>
 
-  <p class="max-w-xl mx-auto text-gray-400 mb-10">
-    Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
-  </p>
+      <p class="max-w-xl mx-auto text-gray-400 mb-10">
+        Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
+      </p>
 
-  <div class="flex flex-col items-center gap-4 text-gray-300">
+      <div class="flex flex-col items-center gap-4 text-gray-300">
 
-    <p class="hover:text-pink-400 transition">
-      📧 <a href="paulalopezvaldes2@gmail.com">paulalopezvaldes2@gmail.com</a>
-    </p>
+        <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
+          📧 paulalopezvaldes2@gmail.com
+        </a>
 
-    <p class="hover:text-pink-400 transition">
-      💻 <a href="github.com/paulalopezv2" target="_blank">github.com/paulalopezv2</a>
-    </p>
+        <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
+          💻 github.com/paulalopezv2
+        </a>
 
-    <p class="text-gray-500">
-      🔗 LinkedIn (próximamente)
-    </p>
+        <p class="text-gray-500">
+          🔗 LinkedIn (próximamente)
+        </p>
 
-  </div>
-
-</section>
-
+      </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="text-center py-10 text-gray-500 text-sm">
