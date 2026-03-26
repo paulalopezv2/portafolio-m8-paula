@@ -144,13 +144,12 @@
       <div class="flex flex-col items-center gap-4 text-gray-300">
 
         <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
-          📧 paulalopezvaldes2@gmail.com
-        </a>
+        📧 paulalopezvaldes2@gmail.com
+      </a>
 
-        <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
-          💻 github.com/paulalopezv2
-        </a>
-
+      <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
+        💻 github.com/paulalopezv2
+      </a>
         <p class="text-gray-500">
           🔗 LinkedIn (próximamente)
         </p>
