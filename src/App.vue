@@ -133,19 +133,19 @@
 
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
-      <h2 class="text-3xl font-semibold text-white mb-4">
-        Disponible para nuevos proyectos
-      </h2>
+  <h2 class="text-3xl font-semibold text-white mb-4">
+    Disponible para nuevos proyectos
+  </h2>
 
-      <p class="max-w-xl mx-auto text-gray-400 mb-10">
-        Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
-      </p>
+  <p class="max-w-xl mx-auto text-gray-400 mb-10">
+    Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
+  </p>
 
-      <div class="flex justify-center items-center gap-2 text-gray-300">
-        <span class="text-sm">✉️</span>
-        <span>Contacto</span>
-      </div>
-    </section>
+  <div class="flex justify-center items-center gap-2 text-gray-300">
+    <span class="text-sm">✉️</span>
+    <span>Contacto</span>
+  </div>
+</section>
 
     <!-- FOOTER -->
     <footer class="text-center py-10 text-gray-500 text-sm">
