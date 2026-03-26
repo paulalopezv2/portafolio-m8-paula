@@ -62,9 +62,7 @@
 
         <!-- APP CLIMA -->
         <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-[#cfe8e8] h-32 flex items-center justify-center text-4xl">
-            🌤️
-          </div>
+          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl"></div>
 
           <div class="p-6 text-center">
             <h3 class="font-semibold text-xl mb-2">App de Clima</h3>
@@ -80,9 +78,7 @@
 
         <!-- HABIT TRACKER -->
       <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-        <div class="bg-[#f6d6d6] h-32 flex items-center justify-center text-4xl">
-          ✅
-        </div>
+        <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl"></div>
 
         <div class="p-6 text-center">
           <h3 class="font-semibold text-xl mb-2">Habit Tracker</h3>
@@ -112,9 +108,7 @@
 
         <!-- BUSCADOR -->
         <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-[#e2ddf3] h-32 flex items-center justify-center text-4xl">
-            🎬
-          </div>
+          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl"></div>
 
           <div class="p-6 text-center">
             <h3 class="font-semibold text-xl mb-2">Buscador de Películas</h3>
@@ -146,11 +140,11 @@
   <div class="flex flex-col items-center gap-4 text-gray-300">
 
     <p class="hover:text-pink-400 transition">
-      📧 <a href="mailto:luciaop398@gmail.com">luciaop398@gmail.com</a>
+      📧 <a href="paulalopezvaldes2@gmail.com">paulalopezvaldes2@gmail.com</a>
     </p>
 
     <p class="hover:text-pink-400 transition">
-      💻 <a href="https://github.com/lucia398" target="_blank">github.com/lucia398</a>
+      💻 <a href="github.com/paulalopezv2" target="_blank">github.com/paulalopezv2</a>
     </p>
 
     <p class="text-gray-500">
