@@ -141,11 +141,23 @@
     Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
   </p>
 
-  <div class="flex justify-center items-center gap-2 text-gray-300">
-    <span class="text-sm">✉️</span>
-    <span>Contacto</span>
+  <div class="flex flex-col items-center gap-3 text-gray-300">
+    <p>
+      <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
+        ✉️ paulalopezvaldes2@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
+        💻 github.com/paulalopezv2
+      </a>
+    </p>
+
+    <p class="text-gray-500">🔗 LinkedIn (próximamente)</p>
   </div>
 </section>
+
 
     <!-- FOOTER -->
     <footer class="text-center py-10 text-gray-500 text-sm">
