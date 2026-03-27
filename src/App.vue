@@ -53,8 +53,11 @@
       </p>
     </section>
 
+    
    <!-- PROYECTOS -->
-      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+      <section id="proyectos" class="py-16 px-6">
+
+  <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
 
   <!-- APP CLIMA -->
   <div class="project-card">
@@ -143,7 +146,7 @@
   
 
 </div>
-
+</section>
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
       <h2 class="text-3xl font-semibold text-white mb-4">

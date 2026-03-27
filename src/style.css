@@ -204,3 +204,7 @@ p {
   background: #f3d9db;
   border-color: #d89ca3;
 }
+
+html {
+  scroll-behavior: smooth;
+}
