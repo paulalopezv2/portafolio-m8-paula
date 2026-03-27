@@ -100,11 +100,11 @@
               </a>
 
               <a
-                href="https://github.com/paulalopezv2/habit-tracker-paula"
+                href="https://paulalopezv2.github.io/connect-movie/"
                 target="_blank"
-                class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
+                class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition inline-block"
               >
-                Ver código
+                Ver proyecto
               </a>
             </div>
           </div>
@@ -122,9 +122,13 @@
               Consumo de API externa con resultados dinámicos.
             </p>
 
-            <button class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition">
-              Ver detalle
-            </button>
+            <a
+              href="https://paulalopezv2.github.io/connect-movie/"
+              target="_blank"
+              class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition inline-block"
+            >
+              Ver proyecto
+            </a>
           </div>
         </article>
 
@@ -133,31 +137,30 @@
 
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
-  <h2 class="text-3xl font-semibold text-white mb-4">
-    Disponible para nuevos proyectos
-  </h2>
+      <h2 class="text-3xl font-semibold text-white mb-4">
+        Disponible para nuevos proyectos
+      </h2>
 
-  <p class="max-w-xl mx-auto text-gray-400 mb-10">
-    Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
-  </p>
+      <p class="max-w-xl mx-auto text-gray-400 mb-10">
+        Si tienes una idea o necesitas apoyo en tu proyecto, puedes contactarme y con gusto lo revisamos.
+      </p>
 
-  <div class="flex flex-col items-center gap-3 text-gray-300">
-    <p>
-      <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
-        ✉️ paulalopezvaldes2@gmail.com
-      </a>
-    </p>
+      <div class="flex flex-col items-center gap-3 text-gray-300">
+        <p>
+          <a href="mailto:paulalopezvaldes2@gmail.com" class="hover:text-pink-400 transition">
+            ✉️ paulalopezvaldes2@gmail.com
+          </a>
+        </p>
 
-    <p>
-      <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
-        💻 github.com/paulalopezv2
-      </a>
-    </p>
+        <p>
+          <a href="https://github.com/paulalopezv2" target="_blank" class="hover:text-pink-400 transition">
+            💻 github.com/paulalopezv2
+          </a>
+        </p>
 
-    <p class="text-gray-500">🔗 LinkedIn (próximamente)</p>
-  </div>
-</section>
-
+        <p class="text-gray-500">🔗 LinkedIn (próximamente)</p>
+      </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="text-center py-10 text-gray-500 text-sm">
