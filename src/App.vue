@@ -24,12 +24,13 @@
             uniendo diseño visual y desarrollo web.
           </p>
 
-          <a
-            href="#contacto"
-            class="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition"
+          <a 
+            href="#proyectos"
+            class="btn-ver-proyectos"
           >
-            Contáctame
+            Ver proyectos
           </a>
+
         </div>
       </div>
 
@@ -50,80 +51,74 @@
       </p>
     </section>
 
-    <!-- PROYECTOS -->
-<section id="proyectos" class="py-20 px-6 bg-gray-50">
-  <h2 class="text-3xl font-semibold text-center mb-4">Proyectos</h2>
+   <!-- PROYECTOS -->
+      <section id="proyectos" class="py-16 px-6">
+  <h2 class="text-2xl font-semibold mb-8 text-center">
+    Mis proyectos
+  </h2>
 
-  <p class="text-center text-gray-600 mb-12">
-    Una selección de trabajos donde combino diseño visual y desarrollo web.
-  </p>
+  <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
 
-  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-
-    <!-- APP CLIMA -->
-    <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-      <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
-        🌤️
-      </div>
-
-      <div class="p-6 text-center">
-        <h3 class="font-semibold text-xl mb-2">App de Clima</h3>
-        <p class="text-sm text-gray-500 mb-4">
-          Aplicación con visualización del clima y datos dinámicos.
+    <div class="project-card">
+      <img src="/img/clima.jpg" alt="App clima" />
+      <div class="project-content">
+        <h3 class="project-title">App Clima</h3>
+        <p class="project-desc">
+          Aplicación con API de clima, Vue y diseño pastel.
         </p>
-
-        <button class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition">
-          Ver detalle
-        </button>
-      </div>
-    </article>
-
-    <!-- HABIT TRACKER -->
-    <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-      <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
-        ✅
-      </div>
-
-      <div class="p-6 text-center">
-        <h3 class="font-semibold text-xl mb-2">Habit Tracker</h3>
-        <p class="text-sm text-gray-500 mb-4">
-          Gestión de hábitos usando Vue, reactividad y almacenamiento local.
-        </p>
-
-        <a
-          href="https://paulalopezv2.github.io/habit-tracker-paula/"
-          target="_blank"
-          class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
-        >
+        <a href="https://paulalopezv2.github.io/app-clima-spa-m7/" target="_blank" class="project-btn">
           Ver proyecto
         </a>
       </div>
-    </article>
+    </div>
 
-    <!-- BUSCADOR -->
-    <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-      <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
-        🎬
-      </div>
-
-      <div class="p-6 text-center">
-        <h3 class="font-semibold text-xl mb-2">Buscador de Películas</h3>
-        <p class="text-sm text-gray-500 mb-4">
-          Consumo de API externa con resultados dinámicos.
+    <div class="project-card">
+      <img src="/img/peliculas.jpg" alt="Películas" />
+      <div class="project-content">
+        <h3 class="project-title">Buscador Películas</h3>
+        <p class="project-desc">
+          Buscador dinámico con consumo de API.
         </p>
-
-        <a
-          href="https://paulalopezv2.github.io/connect-movie/"
-          target="_blank"
-          class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition inline-block"
-        >
+        <a href="https://paulalopezv2.github.io/connect-movie/" target="_blank" class="project-btn">
           Ver proyecto
         </a>
       </div>
-    </article>
+    </div>
+
+    <div class="project-card">
+      <img src="/img/habitos.jpg" alt="Hábitos" />
+      <div class="project-content">
+        <h3 class="project-title">Habit Tracker</h3>
+        <p class="project-desc">
+          Seguimiento de hábitos con Vue.
+        </p>
+        <a href="https://paulalopezv2.github.io/habit-tracker-paula/" target="_blank" class="project-btn">
+          Ver proyecto
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="/img/coffee.jpg" alt="Coffee Shop" />
+      <div class="project-content">
+        <h3 class="project-title">Coffee Shop</h3>
+        <p class="project-desc">
+          E-commerce de café con props, emits, carrito y cálculo reactivo del total.
+        </p>
+
+        
+        <a href="https://paulalopezv2.github.io/coffee-shop/" target="_blank" class="project-btn">
+          Ver proyecto
+        </a>
+
+
+      </div>
+    </div>
 
   </div>
 </section>
+
+
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
       <h2 class="text-3xl font-semibold text-white mb-4">
