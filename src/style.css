@@ -171,3 +171,36 @@ p {
   background: #f8d7da;
   border-color: #e8aeb7;
 }
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  background: #e8c1c5;
+  color: #1c1c1c;
+  transition: 0.3s;
+}
+
+.project-btn:hover {
+  background: #d89ca3;
+}
+
+.project-btn--ghost {
+  background: transparent;
+  border: 1px solid #bdbdbd;
+  color: #2e2e2e;
+}
+
+.project-btn--ghost:hover {
+  background: #f3d9db;
+  border-color: #d89ca3;
+}
