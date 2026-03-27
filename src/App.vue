@@ -52,72 +52,95 @@
     </section>
 
    <!-- PROYECTOS -->
-      <section id="proyectos" class="py-16 px-6">
-  <h2 class="text-2xl font-semibold mb-8 text-center">
-    Mis proyectos
-  </h2>
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
 
-  <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+  <!-- APP CLIMA -->
+  <div class="project-card">
+    <img src="/img/clima.jpg" alt="App clima" />
+    <div class="project-content">
+      <h3 class="project-title">App Clima</h3>
+      <p class="project-desc">
+        Aplicación con API de clima, Vue y diseño pastel.
+      </p>
 
-    <div class="project-card">
-      <img src="/img/clima.jpg" alt="App clima" />
-      <div class="project-content">
-        <h3 class="project-title">App Clima</h3>
-        <p class="project-desc">
-          Aplicación con API de clima, Vue y diseño pastel.
-        </p>
+      <div class="project-links">
         <a href="https://paulalopezv2.github.io/app-clima-spa-m7/" target="_blank" class="project-btn">
           Ver proyecto
         </a>
-      </div>
-    </div>
 
-    <div class="project-card">
-      <img src="/img/peliculas.jpg" alt="Películas" />
-      <div class="project-content">
-        <h3 class="project-title">Buscador Películas</h3>
-        <p class="project-desc">
-          Buscador dinámico con consumo de API.
-        </p>
-        <a href="https://paulalopezv2.github.io/connect-movie/" target="_blank" class="project-btn">
-          Ver proyecto
+        <a href="https://github.com/paulalopezv2/app-clima-spa-m7" target="_blank" class="project-btn project-btn--ghost">
+          Código
         </a>
       </div>
     </div>
+  </div>
 
-    <div class="project-card">
-      <img src="/img/habitos.jpg" alt="Hábitos" />
-      <div class="project-content">
-        <h3 class="project-title">Habit Tracker</h3>
-        <p class="project-desc">
-          Seguimiento de hábitos con Vue.
-        </p>
+  <!-- HABIT TRACKER -->
+  <div class="project-card">
+    <img src="/img/habitos.jpg" alt="Habit tracker" />
+    <div class="project-content">
+      <h3 class="project-title">Habit Tracker</h3>
+      <p class="project-desc">
+        Seguimiento de hábitos con Vue.
+      </p>
+
+      <div class="project-links">
         <a href="https://paulalopezv2.github.io/habit-tracker-paula/" target="_blank" class="project-btn">
           Ver proyecto
         </a>
+
+        <a href="https://github.com/paulalopezv2/habit-tracker-paula" target="_blank" class="project-btn project-btn--ghost">
+          Código
+        </a>
       </div>
     </div>
+  </div>
 
+  <!-- BUSCADOR PELÍCULAS -->
+  <div class="project-card">
+    <img src="/img/peliculas.jpg" alt="Buscador películas" />
+    <div class="project-content">
+      <h3 class="project-title">Buscador de Películas</h3>
+      <p class="project-desc">
+        Buscador dinámico con consumo de API.
+      </p>
+
+      <div class="project-links">
+        <a href="https://paulalopezv2.github.io/connect-movie/" target="_blank" class="project-btn">
+          Ver proyecto
+        </a>
+
+        <a href="https://github.com/paulalopezv2/connect-movie" target="_blank" class="project-btn project-btn--ghost">
+          Código
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- COFFEE SHOP -->
     <div class="project-card">
-      <img src="/img/coffee.jpg" alt="Coffee Shop" />
-      <div class="project-content">
-        <h3 class="project-title">Coffee Shop</h3>
-        <p class="project-desc">
-          E-commerce de café con props, emits, carrito y cálculo reactivo del total.
-        </p>
+    <img src="/img/coffee.jpg" alt="Coffee Shop" />
 
-        
+    <div class="project-content">
+      <h3 class="project-title">Coffee Shop</h3>
+      <p class="project-desc">
+        E-commerce de café con props, emits, carrito y cálculo reactivo.
+      </p>
+
+      <div class="project-links">
         <a href="https://paulalopezv2.github.io/coffee-shop/" target="_blank" class="project-btn">
           Ver proyecto
         </a>
 
-
+        <a href="https://github.com/paulalopezv2/coffee-shop" target="_blank" class="project-btn project-btn--ghost">
+          Código
+        </a>
       </div>
     </div>
+</div>
+  
 
-  </div>
-</section>
-
+</div>
 
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">

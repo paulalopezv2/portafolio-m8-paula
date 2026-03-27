@@ -153,3 +153,21 @@ p {
   object-fit: cover;
   border-radius: 16px 16px 0 0;
 }
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.project-btn--ghost {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #444;
+}
+
+.project-btn--ghost:hover {
+  background: #f8d7da;
+  border-color: #e8aeb7;
+}
