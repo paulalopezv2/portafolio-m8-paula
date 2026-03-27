@@ -3,44 +3,46 @@
 
     <!-- HERO -->
     <section class="min-h-screen grid md:grid-cols-2">
+  <!-- IZQUIERDA -->
+  <div class="bg-[#f6d6d6] flex items-center justify-center px-8 py-16">
+    <div class="max-w-md text-left">
+      <p class="uppercase tracking-[0.2em] text-sm text-gray-700 mb-4">
+        Portafolio 2026
+      </p>
 
-      <!-- IZQUIERDA -->
-      <div class="bg-[#f6d6d6] flex items-center justify-center px-8 py-16">
-        <div class="max-w-md text-left">
-          <p class="uppercase tracking-[0.2em] text-sm text-gray-700 mb-4">
-            Portafolio 2026
-          </p>
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
+        Paula López
+      </h1>
 
-          <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
-            Paula López
-          </h1>
+      <p class="text-lg md:text-xl text-gray-700 mb-6">
+      Front-End Developer y Diseñadora Gráfica
+    </p>
 
-          <p class="text-lg md:text-xl text-gray-700 mb-6">
-            Front-End Developer & Diseñadora Gráfica
-          </p>
+      <p class="text-gray-600 mb-8">
+        Creo interfaces simples, elegantes y funcionales,
+        uniendo diseño visual y desarrollo web.
+      </p>
 
-          <p class="text-gray-600 mb-8">
-            Creo interfaces simples, elegantes y funcionales,
-            uniendo diseño visual y desarrollo web.
-          </p>
+      <a href="#proyectos" class="btn-ver-proyectos">
+        Ver proyectos
+      </a>
+    </div>
+  </div>
 
-          <a 
-            href="#proyectos"
-            class="btn-ver-proyectos"
-          >
-            Ver proyectos
-          </a>
+  <!-- DERECHA -->
+  
+<div class="bg-gray-100 flex items-center justify-center">
+  <div class="w-56 h-56 md:w-72 md:h-72 rounded-full border-4 border-pink-200 flex items-center justify-center overflow-hidden shadow-lg">
+    <img
+      src="/img/icono.png"
+      alt="Avatar Paula"
+      class="w-40 h-40 md:w-56 md:h-56 object-cover rounded-full"
+    />
+  </div>
+</div>
+</section>
 
-        </div>
-      </div>
-
-      <!-- DERECHA -->
-      <div class="bg-gray-100 flex items-center justify-center">
-        <div class="w-56 h-56 md:w-72 md:h-72 rounded-full border border-gray-300 flex items-center justify-center">
-          <span class="text-6xl md:text-7xl">🎨</span>
-        </div>
-      </div>
-    </section>
+      
 
     <!-- SOBRE MI -->
     <section class="py-20 px-6 text-center">
