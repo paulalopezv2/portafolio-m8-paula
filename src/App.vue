@@ -51,90 +51,79 @@
     </section>
 
     <!-- PROYECTOS -->
-    <section id="proyectos" class="py-20 px-6 bg-gray-50">
-      <h2 class="text-3xl font-semibold text-center mb-4">Proyectos</h2>
+<section id="proyectos" class="py-20 px-6 bg-gray-50">
+  <h2 class="text-3xl font-semibold text-center mb-4">Proyectos</h2>
 
-      <p class="text-center text-gray-600 mb-12">
-        Una selección de trabajos donde combino diseño visual y desarrollo web.
-      </p>
+  <p class="text-center text-gray-600 mb-12">
+    Una selección de trabajos donde combino diseño visual y desarrollo web.
+  </p>
 
-      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-        <!-- APP CLIMA -->
-        <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
-            🌤️
-          </div>
-
-          <div class="p-6 text-center">
-            <h3 class="font-semibold text-xl mb-2">App de Clima</h3>
-            <p class="text-sm text-gray-500 mb-4">
-              Aplicación con visualización del clima y datos dinámicos.
-            </p>
-
-            <button class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition">
-              Ver detalle
-            </button>
-          </div>
-        </article>
-
-        <!-- HABIT TRACKER -->
-        <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
-            ✅
-          </div>
-
-          <div class="p-6 text-center">
-            <h3 class="font-semibold text-xl mb-2">Habit Tracker</h3>
-            <p class="text-sm text-gray-500 mb-4">
-              Gestión de hábitos usando Vue, reactividad y almacenamiento local.
-            </p>
-
-            <div class="flex justify-center gap-3 flex-wrap">
-              <a
-                href="https://paulalopezv2.github.io/habit-tracker-paula/"
-                target="_blank"
-                class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
-              >
-                Ver proyecto
-              </a>
-
-              <a
-                href="https://paulalopezv2.github.io/connect-movie/"
-                target="_blank"
-                class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition inline-block"
-              >
-                Ver proyecto
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- BUSCADOR -->
-        <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
-          <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
-            🎬
-          </div>
-
-          <div class="p-6 text-center">
-            <h3 class="font-semibold text-xl mb-2">Buscador de Películas</h3>
-            <p class="text-sm text-gray-500 mb-4">
-              Consumo de API externa con resultados dinámicos.
-            </p>
-
-            <a
-              href="https://paulalopezv2.github.io/connect-movie/"
-              target="_blank"
-              class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition inline-block"
-            >
-              Ver proyecto
-            </a>
-          </div>
-        </article>
-
+    <!-- APP CLIMA -->
+    <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
+      <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
+        🌤️
       </div>
-    </section>
 
+      <div class="p-6 text-center">
+        <h3 class="font-semibold text-xl mb-2">App de Clima</h3>
+        <p class="text-sm text-gray-500 mb-4">
+          Aplicación con visualización del clima y datos dinámicos.
+        </p>
+
+        <button class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition">
+          Ver detalle
+        </button>
+      </div>
+    </article>
+
+    <!-- HABIT TRACKER -->
+    <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
+      <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
+        ✅
+      </div>
+
+      <div class="p-6 text-center">
+        <h3 class="font-semibold text-xl mb-2">Habit Tracker</h3>
+        <p class="text-sm text-gray-500 mb-4">
+          Gestión de hábitos usando Vue, reactividad y almacenamiento local.
+        </p>
+
+        <a
+          href="https://paulalopezv2.github.io/habit-tracker-paula/"
+          target="_blank"
+          class="inline-block border px-4 py-2 rounded-full hover:bg-black hover:text-white transition"
+        >
+          Ver proyecto
+        </a>
+      </div>
+    </article>
+
+    <!-- BUSCADOR -->
+    <article class="bg-white rounded-3xl overflow-hidden shadow-sm">
+      <div class="bg-gray-100 border-b border-gray-200 h-32 flex items-center justify-center text-4xl">
+        🎬
+      </div>
+
+      <div class="p-6 text-center">
+        <h3 class="font-semibold text-xl mb-2">Buscador de Películas</h3>
+        <p class="text-sm text-gray-500 mb-4">
+          Consumo de API externa con resultados dinámicos.
+        </p>
+
+        <a
+          href="https://paulalopezv2.github.io/connect-movie/"
+          target="_blank"
+          class="border px-4 py-2 rounded-full hover:bg-black hover:text-white transition inline-block"
+        >
+          Ver proyecto
+        </a>
+      </div>
+    </article>
+
+  </div>
+</section>
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
       <h2 class="text-3xl font-semibold text-white mb-4">
