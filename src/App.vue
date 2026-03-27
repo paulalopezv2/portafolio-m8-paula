@@ -23,9 +23,9 @@
         uniendo diseño visual y desarrollo web.
       </p>
 
-      <a href="#proyectos" class="btn-ver-proyectos">
+     <button @click="irAProyectos" class="btn-ver-proyectos">
         Ver proyectos
-      </a>
+      </button>
     </div>
   </div>
 
@@ -183,6 +183,10 @@
 </template>
 
 <script setup>
+const irAProyectos = () => {
+  const seccion = document.getElementById("proyectos")
+  seccion.scrollIntoView({ behavior: "smooth" })
+}
 </script>
 
 <style>
