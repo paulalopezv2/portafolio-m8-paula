@@ -1,50 +1,46 @@
 <template>
   <main class="bg-white min-h-screen text-gray-800">
-
     <!-- HERO -->
     <section class="min-h-screen grid md:grid-cols-2">
-  <!-- IZQUIERDA -->
-  <div class="bg-[#f6d6d6] flex items-center justify-center px-8 py-16">
-    <div class="max-w-md text-left">
-      <p class="uppercase tracking-[0.2em] text-sm text-gray-700 mb-4">
-        Portafolio 2026
-      </p>
+      <!-- IZQUIERDA -->
+      <div class="bg-[#f6d6d6] flex items-center justify-center px-8 py-16">
+        <div class="max-w-md text-left">
+          <p class="uppercase tracking-[0.2em] text-sm text-gray-700 mb-4">
+            Portafolio 2026
+          </p>
 
-      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
-        Paula López
-      </h1>
+          <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
+            Paula López
+          </h1>
 
-      <p class="text-lg md:text-xl text-gray-700 mb-6">
-      Front-End Developer y Diseñadora Gráfica
-    </p>
+          <p class="text-lg md:text-xl text-gray-700 mb-6">
+            Front-End Developer y Diseñadora Gráfica
+          </p>
 
-      <p class="text-gray-600 mb-8">
-        Creo interfaces simples, elegantes y funcionales,
-        uniendo diseño visual y desarrollo web.
-      </p>
+          <p class="text-gray-600 mb-8">
+            Creo interfaces simples, elegantes y funcionales,
+            uniendo diseño visual y desarrollo web.
+          </p>
 
-     <button @click="irAProyectos" class="btn-ver-proyectos">
-        Ver proyectos
-      </button>
-    </div>
-  </div>
+          <a href="#proyectos" class="btn-ver-proyectos">
+            Ver proyectos
+          </a>
+        </div>
+      </div>
 
-  <!-- DERECHA -->
-  
-<div class="bg-gray-100 flex items-center justify-center">
-  <div class="w-56 h-56 md:w-72 md:h-72 rounded-full border-4 border-pink-200 flex items-center justify-center overflow-hidden shadow-lg">
-    <img
-      src="/img/icono.png"
-      alt="Avatar Paula"
-      class="w-40 h-40 md:w-56 md:h-56 object-cover rounded-full"
-    />
-  </div>
-</div>
-</section>
+      <!-- DERECHA -->
+      <div class="bg-gray-100 flex items-center justify-center">
+        <div class="w-56 h-56 md:w-72 md:h-72 rounded-full border-4 border-pink-200 flex items-center justify-center overflow-hidden shadow-lg">
+          <img
+            src="/img/icono.png"
+            alt="Avatar Paula"
+            class="w-40 h-40 md:w-56 md:h-56 object-cover rounded-full"
+          />
+        </div>
+      </div>
+    </section>
 
-      
-
-    <!-- SOBRE MI -->
+     <!-- SOBRE MI -->
     <section class="py-20 px-6 text-center">
       <h2 class="text-3xl font-semibold mb-4">Sobre mí</h2>
       <p class="max-w-xl mx-auto text-gray-600">
@@ -52,100 +48,127 @@
         Me enfoco en crear interfaces simples, elegantes y funcionales.
       </p>
     </section>
+     <!-- PROYECTOS -->
+    <section id="proyectos" class="py-16 px-6 scroll-mt-24">
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+        <!-- APP CLIMA -->
+        <div class="project-card">
+          <img src="/img/clima.jpg" alt="App clima" />
+          <div class="project-content">
+            <h3 class="project-title">App Clima</h3>
+            <p class="project-desc">
+              Aplicación con API de clima, Vue y diseño pastel.
+            </p>
 
-    
-   <!-- PROYECTOS -->
-<section ref="proyectosRef" id="proyectos" class="py-16 px-6">
+            <div class="project-links">
+              <a
+                href="https://paulalopezv2.github.io/app-clima-spa-m7/"
+                target="_blank"
+                class="project-btn"
+              >
+                Ver proyecto
+              </a>
 
-  <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+              <a
+                href="https://github.com/paulalopezv2/app-clima-spa-m7"
+                target="_blank"
+                class="project-btn project-btn--ghost"
+              >
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <!-- APP CLIMA -->
-    <div class="project-card">
-      <img src="/img/clima.jpg" alt="App clima" />
-      <div class="project-content">
-        <h3 class="project-title">App Clima</h3>
-        <p class="project-desc">
-          Aplicación con API de clima, Vue y diseño pastel.
-        </p>
+        <!-- HABIT TRACKER -->
+        <div class="project-card">
+          <img src="/img/habitos.jpg" alt="Habit tracker" />
+          <div class="project-content">
+            <h3 class="project-title">Habit Tracker</h3>
+            <p class="project-desc">
+              Seguimiento de hábitos con Vue.
+            </p>
 
-        <div class="project-links">
-          <a href="https://paulalopezv2.github.io/app-clima-spa-m7/" target="_blank" class="project-btn">
-            Ver proyecto
-          </a>
+            <div class="project-links">
+              <a
+                href="https://paulalopezv2.github.io/habit-tracker-paula/"
+                target="_blank"
+                class="project-btn"
+              >
+                Ver proyecto
+              </a>
 
-          <a href="https://github.com/paulalopezv2/app-clima-spa-m7" target="_blank" class="project-btn project-btn--ghost">
-            Código
-          </a>
+              <a
+                href="https://github.com/paulalopezv2/habit-tracker-paula"
+                target="_blank"
+                class="project-btn project-btn--ghost"
+              >
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUSCADOR PELÍCULAS -->
+        <div class="project-card">
+          <img src="/img/peliculas.jpg" alt="Buscador películas" />
+          <div class="project-content">
+            <h3 class="project-title">Buscador de Películas</h3>
+            <p class="project-desc">
+              Buscador dinámico con consumo de API.
+            </p>
+
+            <div class="project-links">
+              <a
+                href="https://paulalopezv2.github.io/connect-movie/"
+                target="_blank"
+                class="project-btn"
+              >
+                Ver proyecto
+              </a>
+
+              <a
+                href="https://github.com/paulalopezv2/connect-movie"
+                target="_blank"
+                class="project-btn project-btn--ghost"
+              >
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COFFEE SHOP -->
+        <div class="project-card">
+          <img src="/img/coffee.jpg" alt="Coffee Shop" />
+          <div class="project-content">
+            <h3 class="project-title">Coffee Shop</h3>
+            <p class="project-desc">
+              E-commerce de café con props, emits, carrito y cálculo reactivo.
+            </p>
+
+            <div class="project-links">
+              <a
+                href="https://paulalopezv2.github.io/coffee-shop/"
+                target="_blank"
+                class="project-btn"
+              >
+                Ver proyecto
+              </a>
+
+              <a
+                href="https://github.com/paulalopezv2/coffee-shop"
+                target="_blank"
+                class="project-btn project-btn--ghost"
+              >
+                Código
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- HABIT TRACKER -->
-    <div class="project-card">
-      <img src="/img/habitos.jpg" alt="Habit tracker" />
-      <div class="project-content">
-        <h3 class="project-title">Habit Tracker</h3>
-        <p class="project-desc">
-          Seguimiento de hábitos con Vue.
-        </p>
-
-        <div class="project-links">
-          <a href="https://paulalopezv2.github.io/habit-tracker-paula/" target="_blank" class="project-btn">
-            Ver proyecto
-          </a>
-
-          <a href="https://github.com/paulalopezv2/habit-tracker-paula" target="_blank" class="project-btn project-btn--ghost">
-            Código
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- BUSCADOR -->
-    <div class="project-card">
-      <img src="/img/peliculas.jpg" alt="Buscador películas" />
-      <div class="project-content">
-        <h3 class="project-title">Buscador de Películas</h3>
-        <p class="project-desc">
-          Buscador dinámico con consumo de API.
-        </p>
-
-        <div class="project-links">
-          <a href="https://paulalopezv2.github.io/connect-movie/" target="_blank" class="project-btn">
-            Ver proyecto
-          </a>
-
-          <a href="https://github.com/paulalopezv2/connect-movie" target="_blank" class="project-btn project-btn--ghost">
-            Código
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- COFFEE -->
-    <div class="project-card">
-      <img src="/img/coffee.jpg" alt="Coffee Shop" />
-      <div class="project-content">
-        <h3 class="project-title">Coffee Shop</h3>
-        <p class="project-desc">
-          E-commerce de café con props, emits, carrito y cálculo reactivo.
-        </p>
-
-        <div class="project-links">
-          <a href="https://paulalopezv2.github.io/coffee-shop/" target="_blank" class="project-btn">
-            Ver proyecto
-          </a>
-
-          <a href="https://github.com/paulalopezv2/coffee-shop" target="_blank" class="project-btn project-btn--ghost">
-            Código
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</section>
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-[#0f0f14] text-center">
       <h2 class="text-3xl font-semibold text-white mb-4">
@@ -177,24 +200,10 @@
     <footer class="text-center py-10 text-gray-500 text-sm">
       © 2026 Paula López
     </footer>
-
   </main>
 </template>
 
 <script setup>
-import { ref } from "vue"
-
-const proyectosRef = ref(null)
-
-const irAProyectos = () => {
-  const seccion = document.querySelector("#proyectos")
-  if (seccion) {
-    window.scrollTo({
-      top: seccion.offsetTop,
-      behavior: "smooth"
-    })
-  }
-}
 </script>
 
 <style>
