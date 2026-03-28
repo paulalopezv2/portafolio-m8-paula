@@ -183,9 +183,15 @@
 </template>
 
 <script setup>
-const irAProyectos = () => {
-  const seccion = document.getElementById("proyectos")
-  seccion.scrollIntoView({ behavior: "smooth" })
+import { nextTick } from "vue"
+
+const irAProyectos = async () => {
+  await nextTick()
+
+  const seccion = document.querySelector("#proyectos")
+  if (seccion) {
+    seccion.scrollIntoView({ behavior: "smooth" })
+  }
 }
 </script>
 
